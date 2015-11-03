@@ -1,0 +1,15 @@
+C:\Users\jlarson\Documents\Visual Studio 2008\Projects\WindowsApplication1\WindowsApplication1\bin\Debug\FileSyncService.exe.config
+C:\Users\jlarson\Documents\Visual Studio 2008\Projects\WindowsApplication1\WindowsApplication1\bin\Debug\FileSyncService.exe.manifest
+C:\Users\jlarson\Documents\Visual Studio 2008\Projects\WindowsApplication1\WindowsApplication1\bin\Debug\FileSyncService.application
+C:\Users\jlarson\Documents\Visual Studio 2008\Projects\WindowsApplication1\WindowsApplication1\bin\Debug\FileSyncService.exe
+C:\Users\jlarson\Documents\Visual Studio 2008\Projects\WindowsApplication1\WindowsApplication1\bin\Debug\FileSyncService.pdb
+C:\Users\jlarson\Documents\Visual Studio 2008\Projects\WindowsApplication1\WindowsApplication1\bin\Debug\FileSyncService.xml
+C:\Users\jlarson\Documents\Visual Studio 2008\Projects\WindowsApplication1\WindowsApplication1\obj\Debug\ResolveAssemblyReference.cache
+C:\Users\jlarson\Documents\Visual Studio 2008\Projects\WindowsApplication1\WindowsApplication1\obj\Debug\FileSyncService.FileSync.resources
+C:\Users\jlarson\Documents\Visual Studio 2008\Projects\WindowsApplication1\WindowsApplication1\obj\Debug\FileSyncService.Resources.resources
+C:\Users\jlarson\Documents\Visual Studio 2008\Projects\WindowsApplication1\WindowsApplication1\obj\Debug\FileSyncService.vbproj.GenerateResource.Cache
+C:\Users\jlarson\Documents\Visual Studio 2008\Projects\WindowsApplication1\WindowsApplication1\obj\Debug\FileSyncService.exe.manifest
+C:\Users\jlarson\Documents\Visual Studio 2008\Projects\WindowsApplication1\WindowsApplication1\obj\Debug\FileSyncService.application
+C:\Users\jlarson\Documents\Visual Studio 2008\Projects\WindowsApplication1\WindowsApplication1\obj\Debug\FileSyncService.exe
+C:\Users\jlarson\Documents\Visual Studio 2008\Projects\WindowsApplication1\WindowsApplication1\obj\Debug\FileSyncService.xml
+C:\Users\jlarson\Documents\Visual Studio 2008\Projects\WindowsApplication1\WindowsApplication1\obj\Debug\FileSyncService.pdb

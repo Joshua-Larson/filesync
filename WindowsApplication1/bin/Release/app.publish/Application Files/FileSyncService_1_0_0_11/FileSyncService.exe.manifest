@@ -1,0 +1,85 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<asmv1:assembly xsi:schemaLocation="urn:schemas-microsoft-com:asm.v1 assembly.adaptive.xsd" manifestVersion="1.0" xmlns:asmv3="urn:schemas-microsoft-com:asm.v3" xmlns:dsig="http://www.w3.org/2000/09/xmldsig#" xmlns="urn:schemas-microsoft-com:asm.v2" xmlns:asmv1="urn:schemas-microsoft-com:asm.v1" xmlns:asmv2="urn:schemas-microsoft-com:asm.v2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:co.v1="urn:schemas-microsoft-com:clickonce.v1">
+  <asmv1:assemblyIdentity name="FileSyncService.exe" version="1.0.0.11" publicKeyToken="387aba735b387214" language="neutral" processorArchitecture="msil" type="win32" />
+  <description asmv2:iconFile="1444423545_sync-01.ico" xmlns="urn:schemas-microsoft-com:asm.v1" />
+  <application />
+  <entryPoint>
+    <assemblyIdentity name="FileSyncService" version="1.0.0.0" language="neutral" processorArchitecture="msil" />
+    <commandLine file="FileSyncService.exe" parameters="" />
+  </entryPoint>
+  <trustInfo>
+    <security>
+      <applicationRequestMinimum>
+        <PermissionSet Unrestricted="true" ID="Custom" SameSite="site" />
+        <defaultAssemblyRequest permissionSetReference="Custom" />
+      </applicationRequestMinimum>
+      <requestedPrivileges xmlns="urn:schemas-microsoft-com:asm.v3">
+        <!--
+          UAC Manifest Options
+          If you want to change the Windows User Account Control level replace the 
+          requestedExecutionLevel node with one of the following.
+
+        <requestedExecutionLevel  level="asInvoker" uiAccess="false" />
+        <requestedExecutionLevel  level="requireAdministrator" uiAccess="false" />
+        <requestedExecutionLevel  level="highestAvailable" uiAccess="false" />
+
+         If you want to utilize File and Registry Virtualization for backward 
+         compatibility then delete the requestedExecutionLevel node.
+    -->
+        <requestedExecutionLevel level="asInvoker" uiAccess="false" />
+      </requestedPrivileges>
+    </security>
+  </trustInfo>
+  <dependency>
+    <dependentOS>
+      <osVersionInfo>
+        <os majorVersion="5" minorVersion="1" buildNumber="2600" servicePackMajor="0" />
+      </osVersionInfo>
+    </dependentOS>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="preRequisite" allowDelayedBinding="true">
+      <assemblyIdentity name="Microsoft.Windows.CommonLanguageRuntime" version="2.0.50727.0" />
+    </dependentAssembly>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="preRequisite" allowDelayedBinding="true">
+      <assemblyIdentity name="System.Core" version="3.5.0.0" publicKeyToken="b77a5c561934e089" language="neutral" processorArchitecture="msil" />
+    </dependentAssembly>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="preRequisite" allowDelayedBinding="true">
+      <assemblyIdentity name="WindowsBase" version="3.0.0.0" publicKeyToken="31bf3856ad364e35" language="neutral" processorArchitecture="msil" />
+    </dependentAssembly>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="FileSyncService.exe" size="128512">
+      <assemblyIdentity name="FileSyncService" version="1.0.0.0" language="neutral" processorArchitecture="msil" />
+      <hash>
+        <dsig:Transforms>
+          <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+        </dsig:Transforms>
+        <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" />
+        <dsig:DigestValue>9h8oHq2FeNxNkrWsps3zs88Avqc=</dsig:DigestValue>
+      </hash>
+    </dependentAssembly>
+  </dependency>
+  <file name="1444423545_sync-01.ico" size="104571">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" />
+      <dsig:DigestValue>aBbcslOWYzlNFl2bWkahFFUi3LQ=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="FileSyncService.exe.config" size="2556">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" />
+      <dsig:DigestValue>lLatdr6xdy2AfWCYb02TFmCBSAc=</dsig:DigestValue>
+    </hash>
+  </file>
+<publisherIdentity name="CN=ALTRONDOM\jlarson" issuerKeyHash="b1e5b6978531e1995fae4f483e81cc186b76bdb0" /><Signature Id="StrongNameSignature" xmlns="http://www.w3.org/2000/09/xmldsig#"><SignedInfo><CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /><SignatureMethod Algorithm="http://www.w3.org/2000/09/xmldsig#rsa-sha1" /><Reference URI=""><Transforms><Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature" /><Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /></Transforms><DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" /><DigestValue>40dJ07y3G/KYm4M+OrfXN8OFDuM=</DigestValue></Reference></SignedInfo><SignatureValue>IoXay3Q4iQTzNQ7XIYEKa/hSjFU3xgheDdq94Pr+cVL7EAh51oYUjRlIlXTzntsl42I3gjV3u2GDFbeOG/aYkwemU5nGzpY7YpSdQSsU9fzbv9oNro2rsfaU1fu+9stTPBmjtQCBkFgBWW/okTQvXVEvBwdSqWp/P39VNbJOQRo=</SignatureValue><KeyInfo Id="StrongNameKeyInfo"><KeyValue><RSAKeyValue><Modulus>v3mXYCY/W1WP5Px1bEWfozVFwcPR0lNWFrpYdWqcdQL+J+xBEckX6hV1RE+QfmeWU+Wn15V/lwtKId1srAjZFJJoz8EsJXbOB4j+zA6qdsY0/SAxWS0FK0QYJkRVqgKJzwWLWWHN0RCgpr2sA+XVV9K8usRj3NyR8fWtFbboO3E=</Modulus><Exponent>AQAB</Exponent></RSAKeyValue></KeyValue><msrel:RelData xmlns:msrel="http://schemas.microsoft.com/windows/rel/2005/reldata"><r:license xmlns:r="urn:mpeg:mpeg21:2003:01-REL-R-NS" xmlns:as="http://schemas.microsoft.com/windows/pki/2005/Authenticode"><r:grant><as:ManifestInformation Hash="e30e85c337d7b73a3e839b98f21bb7bcd34947e3" Description="" Url=""><as:assemblyIdentity name="FileSyncService.exe" version="1.0.0.11" publicKeyToken="387aba735b387214" language="neutral" processorArchitecture="msil" type="win32" /></as:ManifestInformation><as:SignedBy /><as:AuthenticodePublisher><as:X509SubjectName>CN=ALTRONDOM\jlarson</as:X509SubjectName></as:AuthenticodePublisher></r:grant><r:issuer><Signature Id="AuthenticodeSignature" xmlns="http://www.w3.org/2000/09/xmldsig#"><SignedInfo><CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /><SignatureMethod Algorithm="http://www.w3.org/2000/09/xmldsig#rsa-sha1" /><Reference URI=""><Transforms><Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature" /><Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /></Transforms><DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" /><DigestValue>7NVjfOMK7T+iMI/doryxoC7wdTo=</DigestValue></Reference></SignedInfo><SignatureValue>uKkjLRGel1eDGQEo37gbSFVXqTZTCX9B8sxK2ap7R05Z22r/b1CcdgeWqMZOHOzUFf1DA5F0k8+RKnrAYPmbERK7oJ+6jcraspl2WVVyAerBkJ70g+eWhdfTdmGFusaP8kqZDOHEbmwYC0NyljFzfLK3nFWTM+grW//C2HX8ItU=</SignatureValue><KeyInfo><KeyValue><RSAKeyValue><Modulus>v3mXYCY/W1WP5Px1bEWfozVFwcPR0lNWFrpYdWqcdQL+J+xBEckX6hV1RE+QfmeWU+Wn15V/lwtKId1srAjZFJJoz8EsJXbOB4j+zA6qdsY0/SAxWS0FK0QYJkRVqgKJzwWLWWHN0RCgpr2sA+XVV9K8usRj3NyR8fWtFbboO3E=</Modulus><Exponent>AQAB</Exponent></RSAKeyValue></KeyValue><X509Data><X509Certificate>MIIB3TCCAUagAwIBAgIQYus6wpKoyoRCZEKLC6XPnTANBgkqhkiG9w0BAQUFADAtMSswKQYDVQQDHiIAQQBMAFQAUgBPAE4ARABPAE0AXABqAGwAYQByAHMAbwBuMB4XDTE1MTAwOTE1NDA1OVoXDTE2MTAwODIxNDA1OVowLTErMCkGA1UEAx4iAEEATABUAFIATwBOAEQATwBNAFwAagBsAGEAcgBzAG8AbjCBnzANBgkqhkiG9w0BAQEFAAOBjQAwgYkCgYEAv3mXYCY/W1WP5Px1bEWfozVFwcPR0lNWFrpYdWqcdQL+J+xBEckX6hV1RE+QfmeWU+Wn15V/lwtKId1srAjZFJJoz8EsJXbOB4j+zA6qdsY0/SAxWS0FK0QYJkRVqgKJzwWLWWHN0RCgpr2sA+XVV9K8usRj3NyR8fWtFbboO3ECAwEAATANBgkqhkiG9w0BAQUFAAOBgQB4qBWuE4cj9HdMWvqBa0ZQkvMuIFxSWpZgSVxifoBTCuIyl0xFfhhXa25JIXYy7sIhxNPXgbBqcsEZaErGrIJRQEEWpKpZgSrEa3Pjhy1U3NRZ4MKRGBQRGXO156TCFZZgrTYlrOv/Ma+zarFbJyPmhLP0EY+pqJvhmuFt1HNXog==</X509Certificate></X509Data></KeyInfo></Signature></r:issuer></r:license></msrel:RelData></KeyInfo></Signature></asmv1:assembly>
